@@ -1,0 +1,18 @@
+Package: arbovigilR
+Title: Ferramentas Simples para Vigilância de Arboviroses
+Version: 0.0.1
+Authors@R: 
+    person("Jânice", "Roberta de Paula", email = "janicerpaula@icloud.com", role = c("aut", "cre"))
+Description: 
+    Funções em R para leitura, organização e análise inicial de dados
+    de vigilância epidemiológica de arboviroses em múltiplos municípios,
+    com foco em identificação de cenários extremos.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    readr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
